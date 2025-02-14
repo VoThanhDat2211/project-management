@@ -1,477 +1,363 @@
-2025-02-13T16:00:51.692+07:00  INFO 13124 --- [demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-02-13T16:00:51.692+07:00  INFO 13124 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-02-13T16:00:51.692+07:00 DEBUG 13124 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
-2025-02-13T16:00:51.692+07:00 DEBUG 13124 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
-2025-02-13T16:00:51.692+07:00 DEBUG 13124 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
-2025-02-13T16:00:51.692+07:00 DEBUG 13124 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5a5360d6
-2025-02-13T16:00:51.693+07:00 DEBUG 13124 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@7cae83e2
-2025-02-13T16:00:51.693+07:00 DEBUG 13124 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2025-02-13T16:00:51.693+07:00  INFO 13124 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-02-13T16:00:51.850+07:00 DEBUG 13124 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/test/", parameters={}
-2025-02-13T16:00:51.851+07:00 DEBUG 13124 --- [demo] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.project_management.demo.controller.ProjectController#test()
-2025-02-13T16:00:51.851+07:00  INFO 13124 --- [demo] [http-nio-8080-exec-1] c.p.demo.controller.ProjectController    : test info
-2025-02-13T16:00:51.852+07:00 ERROR 13124 --- [demo] [http-nio-8080-exec-1] c.p.demo.controller.ProjectController    : test error
-2025-02-13T16:00:51.852+07:00 ERROR 13124 --- [demo] [http-nio-8080-exec-1] c.p.demo.controller.ProjectController    : test error2
-2025-02-13T16:00:51.852+07:00 ERROR 13124 --- [demo] [http-nio-8080-exec-1] c.p.demo.controller.ProjectController    : test error3
-2025-02-13T16:00:51.852+07:00 DEBUG 13124 --- [demo] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-02-13T16:00:51.853+07:00 DEBUG 13124 --- [demo] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
-2025-02-13T16:00:51.853+07:00 DEBUG 13124 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-02-13T16:01:10.904+07:00 DEBUG 13124 --- [demo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/test/", parameters={}
-2025-02-13T16:01:10.905+07:00 DEBUG 13124 --- [demo] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.project_management.demo.controller.ProjectController#test()
-2025-02-13T16:01:10.905+07:00  INFO 13124 --- [demo] [http-nio-8080-exec-4] c.p.demo.controller.ProjectController    : test info
-2025-02-13T16:01:10.905+07:00 ERROR 13124 --- [demo] [http-nio-8080-exec-4] c.p.demo.controller.ProjectController    : test error
-2025-02-13T16:01:10.905+07:00 ERROR 13124 --- [demo] [http-nio-8080-exec-4] c.p.demo.controller.ProjectController    : test error2
-2025-02-13T16:01:10.905+07:00 ERROR 13124 --- [demo] [http-nio-8080-exec-4] c.p.demo.controller.ProjectController    : test error3
-2025-02-13T16:01:10.905+07:00 DEBUG 13124 --- [demo] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-02-13T16:01:10.905+07:00 DEBUG 13124 --- [demo] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
-2025-02-13T16:01:10.905+07:00 DEBUG 13124 --- [demo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-02-13T16:03:38.587+07:00  INFO 13124 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2025-02-13T16:03:38.588+07:00  INFO 13124 --- [demo] [Thread-27] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-13T16:03:38.594+07:00  INFO 13124 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-13T16:03:38.596+07:00  INFO 13124 --- [demo] [Thread-27] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-13T16:03:38.597+07:00  INFO 13124 --- [demo] [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
-2025-02-13T16:03:38.598+07:00  INFO 13124 --- [demo] [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
-2025-02-13T16:03:38.662+07:00  INFO 13124 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Starting DemoApplication using Java 23.0.2 with PID 13124 (D:\Java-learning\demo\target\classes started by dat.vothanh in D:\Java-learning\demo)
-2025-02-13T16:03:38.663+07:00  INFO 13124 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : No active profile set, falling back to 1 default profile: "default"
-2025-02-13T16:03:38.799+07:00  INFO 13124 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-13T16:03:38.801+07:00  INFO 13124 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
-2025-02-13T16:03:38.887+07:00  INFO 13124 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-02-13T16:03:38.888+07:00  INFO 13124 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-13T16:03:38.888+07:00  INFO 13124 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-13T16:03:38.911+07:00  INFO 13124 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-13T16:03:38.911+07:00  INFO 13124 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 246 ms
-2025-02-13T16:03:38.941+07:00  INFO 13124 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
-2025-02-13T16:03:38.944+07:00  INFO 13124 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65a31a89
-2025-02-13T16:03:38.945+07:00  INFO 13124 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
-2025-02-13T16:03:38.958+07:00  INFO 13124 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-13T16:03:39.003+07:00  INFO 13124 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-13T16:03:39.023+07:00  WARN 13124 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-13T16:03:39.037+07:00 DEBUG 13124 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
-2025-02-13T16:03:39.061+07:00 DEBUG 13124 --- [demo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2025-02-13T16:03:39.067+07:00 DEBUG 13124 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2025-02-13T16:03:39.072+07:00 DEBUG 13124 --- [demo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
-2025-02-13T16:03:39.109+07:00  INFO 13124 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2025-02-13T16:03:39.132+07:00  INFO 13124 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-02-13T16:03:39.147+07:00  INFO 13124 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-02-13T16:03:39.150+07:00  INFO 13124 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Started DemoApplication in 0.513 seconds (process running for 2584.947)
-2025-02-13T16:03:39.151+07:00  INFO 13124 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-02-13T16:17:47.249+07:00  INFO 13124 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
-2025-02-13T16:17:47.250+07:00  INFO 13124 --- [demo] [Thread-31] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-13T16:17:47.257+07:00  INFO 13124 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-13T16:17:47.258+07:00  INFO 13124 --- [demo] [Thread-31] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-13T16:17:47.259+07:00  INFO 13124 --- [demo] [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
-2025-02-13T16:17:47.261+07:00  INFO 13124 --- [demo] [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
-2025-02-13T16:17:47.328+07:00  INFO 13124 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Starting DemoApplication using Java 23.0.2 with PID 13124 (D:\Java-learning\demo\target\classes started by dat.vothanh in D:\Java-learning\demo)
-2025-02-13T16:17:47.328+07:00  INFO 13124 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : No active profile set, falling back to 1 default profile: "default"
-2025-02-13T16:17:47.484+07:00  INFO 13124 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-13T16:17:47.486+07:00  INFO 13124 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
-2025-02-13T16:17:47.620+07:00  INFO 13124 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-02-13T16:17:47.622+07:00  INFO 13124 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-13T16:17:47.622+07:00  INFO 13124 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-13T16:17:47.653+07:00  INFO 13124 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-13T16:17:47.653+07:00  INFO 13124 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 323 ms
-2025-02-13T16:17:47.700+07:00  INFO 13124 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
-2025-02-13T16:17:47.705+07:00  INFO 13124 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Added connection com.mysql.cj.jdbc.ConnectionImpl@11839c5
-2025-02-13T16:17:47.705+07:00  INFO 13124 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
-2025-02-13T16:17:47.721+07:00  INFO 13124 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-13T16:17:47.836+07:00  INFO 13124 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-13T16:17:47.874+07:00  WARN 13124 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-13T16:17:47.902+07:00 DEBUG 13124 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
-2025-02-13T16:17:47.948+07:00 DEBUG 13124 --- [demo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2025-02-13T16:17:47.960+07:00 DEBUG 13124 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2025-02-13T16:17:47.970+07:00 DEBUG 13124 --- [demo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
-2025-02-13T16:17:48.048+07:00  INFO 13124 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2025-02-13T16:17:48.097+07:00  INFO 13124 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-02-13T16:17:48.146+07:00  INFO 13124 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-02-13T16:17:48.149+07:00  INFO 13124 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Started DemoApplication in 0.85 seconds (process running for 3433.943)
-2025-02-13T16:17:48.151+07:00  INFO 13124 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-02-13T16:20:46.760+07:00  INFO 13124 --- [demo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-13T16:20:46.766+07:00  INFO 13124 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-13T16:20:46.768+07:00  INFO 13124 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-13T16:20:46.769+07:00  INFO 13124 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
-2025-02-13T16:20:46.771+07:00  INFO 13124 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
-2025-02-13T16:20:53.166+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Starting DemoApplication using Java 23.0.2 with PID 2352 (D:\Java-learning\demo\target\classes started by dat.vothanh in D:\Java-learning\demo)
-2025-02-13T16:20:53.168+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : No active profile set, falling back to 1 default profile: "default"
-2025-02-13T16:20:53.229+07:00  INFO 2352 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-02-13T16:20:53.230+07:00  INFO 2352 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-02-13T16:20:53.858+07:00  INFO 2352 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-13T16:20:53.875+07:00  INFO 2352 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
-2025-02-13T16:20:54.462+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-02-13T16:20:54.475+07:00  INFO 2352 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-13T16:20:54.475+07:00  INFO 2352 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-13T16:20:54.527+07:00  INFO 2352 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-13T16:20:54.528+07:00  INFO 2352 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1297 ms
-2025-02-13T16:20:54.642+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-02-13T16:20:54.784+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57b8940
-2025-02-13T16:20:54.786+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-02-13T16:20:55.230+07:00  INFO 2352 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-13T16:20:56.236+07:00  INFO 2352 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-13T16:20:56.312+07:00  WARN 2352 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-13T16:20:56.379+07:00 DEBUG 2352 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
-2025-02-13T16:20:56.443+07:00 DEBUG 2352 --- [demo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2025-02-13T16:20:56.480+07:00 DEBUG 2352 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2025-02-13T16:20:56.533+07:00 DEBUG 2352 --- [demo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
-2025-02-13T16:20:56.668+07:00  INFO 2352 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2025-02-13T16:20:56.797+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-02-13T16:20:56.848+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-02-13T16:20:56.856+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Started DemoApplication in 4.1 seconds (process running for 5.354)
-2025-02-13T16:23:41.877+07:00  INFO 2352 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
-2025-02-13T16:23:41.918+07:00  INFO 2352 --- [demo] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-13T16:23:41.962+07:00  INFO 2352 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-13T16:23:41.984+07:00  INFO 2352 --- [demo] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-13T16:23:41.992+07:00  INFO 2352 --- [demo] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-02-13T16:23:42.015+07:00  INFO 2352 --- [demo] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-02-13T16:23:42.145+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Starting DemoApplication using Java 23.0.2 with PID 2352 (D:\Java-learning\demo\target\classes started by dat.vothanh in D:\Java-learning\demo)
-2025-02-13T16:23:42.147+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : No active profile set, falling back to 1 default profile: "default"
-2025-02-13T16:23:42.484+07:00  INFO 2352 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-13T16:23:42.487+07:00  INFO 2352 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
-2025-02-13T16:23:42.689+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-02-13T16:23:42.690+07:00  INFO 2352 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-13T16:23:42.691+07:00  INFO 2352 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-13T16:23:42.726+07:00  INFO 2352 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-13T16:23:42.727+07:00  INFO 2352 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 575 ms
-2025-02-13T16:23:42.767+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2025-02-13T16:23:42.773+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2fd8e0f8
-2025-02-13T16:23:42.774+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2025-02-13T16:23:42.793+07:00  INFO 2352 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-13T16:23:42.901+07:00  INFO 2352 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-13T16:23:42.938+07:00  WARN 2352 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-13T16:23:42.967+07:00 DEBUG 2352 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
-2025-02-13T16:23:43.003+07:00 DEBUG 2352 --- [demo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2025-02-13T16:23:43.012+07:00 DEBUG 2352 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2025-02-13T16:23:43.020+07:00 DEBUG 2352 --- [demo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
-2025-02-13T16:23:43.076+07:00  INFO 2352 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2025-02-13T16:23:43.105+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-02-13T16:23:43.132+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-02-13T16:23:43.136+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Started DemoApplication in 1.054 seconds (process running for 171.634)
-2025-02-13T16:23:43.139+07:00  INFO 2352 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-02-13T16:39:21.499+07:00  INFO 2352 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
-2025-02-13T16:39:21.501+07:00  INFO 2352 --- [demo] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-13T16:39:21.507+07:00  INFO 2352 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-13T16:39:21.509+07:00  INFO 2352 --- [demo] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-13T16:39:21.510+07:00  INFO 2352 --- [demo] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
-2025-02-13T16:39:21.512+07:00  INFO 2352 --- [demo] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
-2025-02-13T16:39:21.581+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Starting DemoApplication using Java 23.0.2 with PID 2352 (D:\Java-learning\demo\target\classes started by dat.vothanh in D:\Java-learning\demo)
-2025-02-13T16:39:21.581+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : No active profile set, falling back to 1 default profile: "default"
-2025-02-13T16:39:21.731+07:00  INFO 2352 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-13T16:39:21.734+07:00  INFO 2352 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
-2025-02-13T16:39:21.837+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-02-13T16:39:21.839+07:00  INFO 2352 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-13T16:39:21.840+07:00  INFO 2352 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-13T16:39:21.862+07:00  INFO 2352 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-13T16:39:21.862+07:00  INFO 2352 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 278 ms
-2025-02-13T16:39:21.890+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
-2025-02-13T16:39:21.894+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45ff0671
-2025-02-13T16:39:21.895+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
-2025-02-13T16:39:21.908+07:00  INFO 2352 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-13T16:39:21.974+07:00  INFO 2352 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-13T16:39:21.996+07:00  WARN 2352 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-13T16:39:22.014+07:00 DEBUG 2352 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
-2025-02-13T16:39:22.039+07:00 DEBUG 2352 --- [demo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2025-02-13T16:39:22.046+07:00 DEBUG 2352 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2025-02-13T16:39:22.053+07:00 DEBUG 2352 --- [demo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
-2025-02-13T16:39:22.101+07:00  INFO 2352 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2025-02-13T16:39:22.127+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-02-13T16:39:22.143+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-02-13T16:39:22.147+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Started DemoApplication in 0.595 seconds (process running for 1110.64)
-2025-02-13T16:39:22.149+07:00  INFO 2352 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-02-13T16:40:52.969+07:00  INFO 2352 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
-2025-02-13T16:40:52.971+07:00  INFO 2352 --- [demo] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-13T16:40:52.978+07:00  INFO 2352 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-13T16:40:52.980+07:00  INFO 2352 --- [demo] [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-13T16:40:52.981+07:00  INFO 2352 --- [demo] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
-2025-02-13T16:40:52.984+07:00  INFO 2352 --- [demo] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
-2025-02-13T16:40:53.064+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Starting DemoApplication using Java 23.0.2 with PID 2352 (D:\Java-learning\demo\target\classes started by dat.vothanh in D:\Java-learning\demo)
-2025-02-13T16:40:53.065+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : No active profile set, falling back to 1 default profile: "default"
-2025-02-13T16:40:53.319+07:00  INFO 2352 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-13T16:40:53.322+07:00  INFO 2352 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
-2025-02-13T16:40:53.446+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-02-13T16:40:53.447+07:00  INFO 2352 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-13T16:40:53.447+07:00  INFO 2352 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-13T16:40:53.476+07:00  INFO 2352 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-13T16:40:53.476+07:00  INFO 2352 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 409 ms
-2025-02-13T16:40:53.522+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
-2025-02-13T16:40:53.527+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@50029247
-2025-02-13T16:40:53.527+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
-2025-02-13T16:40:53.546+07:00  INFO 2352 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-13T16:40:53.665+07:00  INFO 2352 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-13T16:40:53.690+07:00  WARN 2352 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-13T16:40:53.706+07:00 DEBUG 2352 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
-2025-02-13T16:40:53.732+07:00 DEBUG 2352 --- [demo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2025-02-13T16:40:53.742+07:00 DEBUG 2352 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2025-02-13T16:40:53.749+07:00 DEBUG 2352 --- [demo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
-2025-02-13T16:40:53.789+07:00  INFO 2352 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2025-02-13T16:40:53.816+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-02-13T16:40:53.832+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-02-13T16:40:53.835+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Started DemoApplication in 0.807 seconds (process running for 1202.327)
-2025-02-13T16:40:53.836+07:00  INFO 2352 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-02-13T16:40:55.238+07:00  INFO 2352 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
-2025-02-13T16:40:55.244+07:00  INFO 2352 --- [demo] [Thread-15] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-13T16:40:55.258+07:00  INFO 2352 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-13T16:40:55.260+07:00  INFO 2352 --- [demo] [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-13T16:40:55.261+07:00  INFO 2352 --- [demo] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
-2025-02-13T16:40:55.268+07:00  INFO 2352 --- [demo] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
-2025-02-13T16:40:55.363+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Starting DemoApplication using Java 23.0.2 with PID 2352 (D:\Java-learning\demo\target\classes started by dat.vothanh in D:\Java-learning\demo)
-2025-02-13T16:40:55.363+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : No active profile set, falling back to 1 default profile: "default"
-2025-02-13T16:40:55.594+07:00  INFO 2352 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-13T16:40:55.597+07:00  INFO 2352 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
-2025-02-13T16:40:55.777+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-02-13T16:40:55.834+07:00  INFO 2352 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-13T16:40:55.843+07:00  INFO 2352 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-13T16:40:55.989+07:00  INFO 2352 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-13T16:40:55.990+07:00  INFO 2352 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 624 ms
-2025-02-13T16:40:56.041+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
-2025-02-13T16:40:56.046+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e10a2b8
-2025-02-13T16:40:56.047+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
-2025-02-13T16:40:56.073+07:00  INFO 2352 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-13T16:40:56.196+07:00  INFO 2352 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-13T16:40:56.239+07:00  WARN 2352 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-13T16:40:56.307+07:00 DEBUG 2352 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
-2025-02-13T16:40:56.352+07:00 DEBUG 2352 --- [demo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2025-02-13T16:40:56.364+07:00 DEBUG 2352 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2025-02-13T16:40:56.377+07:00 DEBUG 2352 --- [demo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
-2025-02-13T16:40:56.474+07:00  INFO 2352 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2025-02-13T16:40:56.522+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-02-13T16:40:56.546+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-02-13T16:40:56.549+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Started DemoApplication in 1.224 seconds (process running for 1205.042)
-2025-02-13T16:40:56.551+07:00  INFO 2352 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-02-13T16:42:02.018+07:00  INFO 2352 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
-2025-02-13T16:42:02.019+07:00  INFO 2352 --- [demo] [Thread-19] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-13T16:42:02.025+07:00  INFO 2352 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-13T16:42:02.026+07:00  INFO 2352 --- [demo] [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-13T16:42:02.027+07:00  INFO 2352 --- [demo] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
-2025-02-13T16:42:02.028+07:00  INFO 2352 --- [demo] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
-2025-02-13T16:42:02.094+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Starting DemoApplication using Java 23.0.2 with PID 2352 (D:\Java-learning\demo\target\classes started by dat.vothanh in D:\Java-learning\demo)
-2025-02-13T16:42:02.095+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : No active profile set, falling back to 1 default profile: "default"
-2025-02-13T16:42:02.296+07:00  INFO 2352 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-13T16:42:02.300+07:00  INFO 2352 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
-2025-02-13T16:42:02.420+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-02-13T16:42:02.421+07:00  INFO 2352 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-13T16:42:02.421+07:00  INFO 2352 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-13T16:42:02.452+07:00  INFO 2352 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-13T16:42:02.453+07:00  INFO 2352 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 357 ms
-2025-02-13T16:42:02.498+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
-2025-02-13T16:42:02.504+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33be153b
-2025-02-13T16:42:02.505+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
-2025-02-13T16:42:02.526+07:00  INFO 2352 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-13T16:42:02.618+07:00  INFO 2352 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-13T16:42:02.642+07:00  WARN 2352 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-13T16:42:02.661+07:00 DEBUG 2352 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
-2025-02-13T16:42:02.699+07:00 DEBUG 2352 --- [demo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2025-02-13T16:42:02.707+07:00 DEBUG 2352 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2025-02-13T16:42:02.715+07:00 DEBUG 2352 --- [demo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
-2025-02-13T16:42:02.766+07:00  INFO 2352 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2025-02-13T16:42:02.799+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-02-13T16:42:02.818+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-02-13T16:42:02.821+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Started DemoApplication in 0.758 seconds (process running for 1271.314)
-2025-02-13T16:42:02.822+07:00  INFO 2352 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-02-13T16:42:04.220+07:00  INFO 2352 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
-2025-02-13T16:42:04.222+07:00  INFO 2352 --- [demo] [Thread-23] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-13T16:42:04.227+07:00  INFO 2352 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-13T16:42:04.228+07:00  INFO 2352 --- [demo] [Thread-23] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-13T16:42:04.229+07:00  INFO 2352 --- [demo] [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
-2025-02-13T16:42:04.230+07:00  INFO 2352 --- [demo] [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
-2025-02-13T16:42:04.281+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Starting DemoApplication using Java 23.0.2 with PID 2352 (D:\Java-learning\demo\target\classes started by dat.vothanh in D:\Java-learning\demo)
-2025-02-13T16:42:04.281+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : No active profile set, falling back to 1 default profile: "default"
-2025-02-13T16:42:04.396+07:00  INFO 2352 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-13T16:42:04.398+07:00  INFO 2352 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
-2025-02-13T16:42:04.468+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-02-13T16:42:04.469+07:00  INFO 2352 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-13T16:42:04.469+07:00  INFO 2352 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-13T16:42:04.491+07:00  INFO 2352 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-13T16:42:04.491+07:00  INFO 2352 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 208 ms
-2025-02-13T16:42:04.516+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
-2025-02-13T16:42:04.520+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62e236a3
-2025-02-13T16:42:04.520+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
-2025-02-13T16:42:04.536+07:00  INFO 2352 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-13T16:42:04.589+07:00  INFO 2352 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-13T16:42:04.606+07:00  WARN 2352 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-13T16:42:04.618+07:00 DEBUG 2352 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
-2025-02-13T16:42:04.638+07:00 DEBUG 2352 --- [demo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2025-02-13T16:42:04.643+07:00 DEBUG 2352 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2025-02-13T16:42:04.648+07:00 DEBUG 2352 --- [demo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
-2025-02-13T16:42:04.682+07:00  INFO 2352 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2025-02-13T16:42:04.701+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-02-13T16:42:04.715+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-02-13T16:42:04.718+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Started DemoApplication in 0.46 seconds (process running for 1273.21)
-2025-02-13T16:42:04.718+07:00  INFO 2352 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-02-13T16:43:00.932+07:00  INFO 2352 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
-2025-02-13T16:43:00.934+07:00  INFO 2352 --- [demo] [Thread-27] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-13T16:43:00.939+07:00  INFO 2352 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-13T16:43:00.941+07:00  INFO 2352 --- [demo] [Thread-27] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-13T16:43:00.942+07:00  INFO 2352 --- [demo] [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
-2025-02-13T16:43:00.944+07:00  INFO 2352 --- [demo] [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
-2025-02-13T16:43:01.010+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Starting DemoApplication using Java 23.0.2 with PID 2352 (D:\Java-learning\demo\target\classes started by dat.vothanh in D:\Java-learning\demo)
-2025-02-13T16:43:01.010+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : No active profile set, falling back to 1 default profile: "default"
-2025-02-13T16:43:01.171+07:00  INFO 2352 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-13T16:43:01.174+07:00  INFO 2352 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
-2025-02-13T16:43:01.270+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-02-13T16:43:01.271+07:00  INFO 2352 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-13T16:43:01.271+07:00  INFO 2352 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-13T16:43:01.295+07:00  INFO 2352 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-13T16:43:01.295+07:00  INFO 2352 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 282 ms
-2025-02-13T16:43:01.323+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
-2025-02-13T16:43:01.327+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@14d63702
-2025-02-13T16:43:01.327+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
-2025-02-13T16:43:01.341+07:00  INFO 2352 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-13T16:43:01.415+07:00  INFO 2352 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-13T16:43:01.447+07:00  WARN 2352 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-13T16:43:01.467+07:00 DEBUG 2352 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
-2025-02-13T16:43:01.501+07:00 DEBUG 2352 --- [demo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2025-02-13T16:43:01.509+07:00 DEBUG 2352 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2025-02-13T16:43:01.517+07:00 DEBUG 2352 --- [demo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
-2025-02-13T16:43:01.561+07:00  INFO 2352 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2025-02-13T16:43:01.583+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-02-13T16:43:01.598+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-02-13T16:43:01.600+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Started DemoApplication in 0.621 seconds (process running for 1330.092)
-2025-02-13T16:43:01.601+07:00  INFO 2352 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-02-13T16:43:03.000+07:00  INFO 2352 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
-2025-02-13T16:43:03.001+07:00  INFO 2352 --- [demo] [Thread-31] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-13T16:43:03.006+07:00  INFO 2352 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-13T16:43:03.008+07:00  INFO 2352 --- [demo] [Thread-31] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-13T16:43:03.008+07:00  INFO 2352 --- [demo] [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
-2025-02-13T16:43:03.010+07:00  INFO 2352 --- [demo] [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
-2025-02-13T16:43:03.071+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Starting DemoApplication using Java 23.0.2 with PID 2352 (D:\Java-learning\demo\target\classes started by dat.vothanh in D:\Java-learning\demo)
-2025-02-13T16:43:03.071+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : No active profile set, falling back to 1 default profile: "default"
-2025-02-13T16:43:03.223+07:00  INFO 2352 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-13T16:43:03.225+07:00  INFO 2352 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
-2025-02-13T16:43:03.319+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-02-13T16:43:03.320+07:00  INFO 2352 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-13T16:43:03.320+07:00  INFO 2352 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-13T16:43:03.342+07:00  INFO 2352 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-13T16:43:03.343+07:00  INFO 2352 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 270 ms
-2025-02-13T16:43:03.380+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
-2025-02-13T16:43:03.383+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Added connection com.mysql.cj.jdbc.ConnectionImpl@14846001
-2025-02-13T16:43:03.383+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
-2025-02-13T16:43:03.395+07:00  INFO 2352 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-13T16:43:03.467+07:00  INFO 2352 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-13T16:43:03.484+07:00  WARN 2352 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-13T16:43:03.504+07:00 DEBUG 2352 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
-2025-02-13T16:43:03.526+07:00 DEBUG 2352 --- [demo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2025-02-13T16:43:03.532+07:00 DEBUG 2352 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2025-02-13T16:43:03.540+07:00 DEBUG 2352 --- [demo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
-2025-02-13T16:43:03.580+07:00  INFO 2352 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2025-02-13T16:43:03.601+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-02-13T16:43:03.616+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-02-13T16:43:03.618+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Started DemoApplication in 0.574 seconds (process running for 1332.11)
-2025-02-13T16:43:03.619+07:00  INFO 2352 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-02-13T16:43:42.637+07:00  INFO 2352 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
-2025-02-13T16:43:42.638+07:00  INFO 2352 --- [demo] [Thread-35] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-13T16:43:42.646+07:00  INFO 2352 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-13T16:43:42.648+07:00  INFO 2352 --- [demo] [Thread-35] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-13T16:43:42.649+07:00  INFO 2352 --- [demo] [Thread-35] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
-2025-02-13T16:43:42.653+07:00  INFO 2352 --- [demo] [Thread-35] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
-2025-02-13T16:43:42.763+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Starting DemoApplication using Java 23.0.2 with PID 2352 (D:\Java-learning\demo\target\classes started by dat.vothanh in D:\Java-learning\demo)
-2025-02-13T16:43:42.764+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : No active profile set, falling back to 1 default profile: "default"
-2025-02-13T16:43:43.008+07:00  INFO 2352 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-13T16:43:43.011+07:00  INFO 2352 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
-2025-02-13T16:43:43.124+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-02-13T16:43:43.124+07:00  INFO 2352 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-13T16:43:43.124+07:00  INFO 2352 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-13T16:43:43.154+07:00  INFO 2352 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-13T16:43:43.154+07:00  INFO 2352 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 386 ms
-2025-02-13T16:43:43.192+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
-2025-02-13T16:43:43.196+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-10 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e7bfaed
-2025-02-13T16:43:43.196+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
-2025-02-13T16:43:43.218+07:00  INFO 2352 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-13T16:43:43.317+07:00  INFO 2352 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-13T16:43:43.343+07:00  WARN 2352 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-13T16:43:43.382+07:00 DEBUG 2352 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
-2025-02-13T16:43:43.423+07:00 DEBUG 2352 --- [demo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2025-02-13T16:43:43.434+07:00 DEBUG 2352 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2025-02-13T16:43:43.443+07:00 DEBUG 2352 --- [demo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
-2025-02-13T16:43:43.512+07:00  INFO 2352 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2025-02-13T16:43:43.563+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-02-13T16:43:43.589+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-02-13T16:43:43.591+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Started DemoApplication in 0.879 seconds (process running for 1372.084)
-2025-02-13T16:43:43.592+07:00  INFO 2352 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-02-13T16:44:33.681+07:00  INFO 2352 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
-2025-02-13T16:44:33.682+07:00  INFO 2352 --- [demo] [Thread-39] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-13T16:44:33.688+07:00  INFO 2352 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-13T16:44:33.690+07:00  INFO 2352 --- [demo] [Thread-39] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-13T16:44:33.690+07:00  INFO 2352 --- [demo] [Thread-39] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
-2025-02-13T16:44:33.691+07:00  INFO 2352 --- [demo] [Thread-39] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
-2025-02-13T16:44:33.750+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Starting DemoApplication using Java 23.0.2 with PID 2352 (D:\Java-learning\demo\target\classes started by dat.vothanh in D:\Java-learning\demo)
-2025-02-13T16:44:33.750+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : No active profile set, falling back to 1 default profile: "default"
-2025-02-13T16:44:33.891+07:00  INFO 2352 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-13T16:44:33.893+07:00  INFO 2352 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
-2025-02-13T16:44:33.972+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-02-13T16:44:33.973+07:00  INFO 2352 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-13T16:44:33.973+07:00  INFO 2352 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-13T16:44:33.995+07:00  INFO 2352 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-13T16:44:33.995+07:00  INFO 2352 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 244 ms
-2025-02-13T16:44:34.022+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
-2025-02-13T16:44:34.027+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-11 - Added connection com.mysql.cj.jdbc.ConnectionImpl@47ca79f0
-2025-02-13T16:44:34.027+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
-2025-02-13T16:44:34.039+07:00  INFO 2352 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-13T16:44:34.106+07:00  INFO 2352 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-13T16:44:34.125+07:00  WARN 2352 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-13T16:44:34.140+07:00 DEBUG 2352 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
-2025-02-13T16:44:34.164+07:00 DEBUG 2352 --- [demo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2025-02-13T16:44:34.170+07:00 DEBUG 2352 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2025-02-13T16:44:34.176+07:00 DEBUG 2352 --- [demo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
-2025-02-13T16:44:34.215+07:00  INFO 2352 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2025-02-13T16:44:34.239+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-02-13T16:44:34.254+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-02-13T16:44:34.256+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Started DemoApplication in 0.531 seconds (process running for 1422.748)
-2025-02-13T16:44:34.257+07:00  INFO 2352 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-02-13T16:45:28.447+07:00  INFO 2352 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
-2025-02-13T16:45:28.448+07:00  INFO 2352 --- [demo] [Thread-43] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-13T16:45:28.453+07:00  INFO 2352 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-13T16:45:28.455+07:00  INFO 2352 --- [demo] [Thread-43] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-13T16:45:28.455+07:00  INFO 2352 --- [demo] [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
-2025-02-13T16:45:28.457+07:00  INFO 2352 --- [demo] [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
-2025-02-13T16:45:28.522+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Starting DemoApplication using Java 23.0.2 with PID 2352 (D:\Java-learning\demo\target\classes started by dat.vothanh in D:\Java-learning\demo)
-2025-02-13T16:45:28.523+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : No active profile set, falling back to 1 default profile: "default"
-2025-02-13T16:45:28.696+07:00  INFO 2352 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-13T16:45:28.700+07:00  INFO 2352 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
-2025-02-13T16:45:28.801+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-02-13T16:45:28.802+07:00  INFO 2352 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-13T16:45:28.802+07:00  INFO 2352 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-13T16:45:28.825+07:00  INFO 2352 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-13T16:45:28.825+07:00  INFO 2352 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 301 ms
-2025-02-13T16:45:28.854+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Starting...
-2025-02-13T16:45:28.858+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-12 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1a8fee0a
-2025-02-13T16:45:28.859+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Start completed.
-2025-02-13T16:45:28.876+07:00  INFO 2352 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-13T16:45:28.940+07:00  INFO 2352 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-13T16:45:28.959+07:00  WARN 2352 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-13T16:45:28.975+07:00 DEBUG 2352 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
-2025-02-13T16:45:28.998+07:00 DEBUG 2352 --- [demo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2025-02-13T16:45:29.004+07:00 DEBUG 2352 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2025-02-13T16:45:29.010+07:00 DEBUG 2352 --- [demo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
-2025-02-13T16:45:29.053+07:00  INFO 2352 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2025-02-13T16:45:29.077+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-02-13T16:45:29.093+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-02-13T16:45:29.095+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Started DemoApplication in 0.599 seconds (process running for 1477.588)
-2025-02-13T16:45:29.097+07:00  INFO 2352 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-02-13T16:45:30.497+07:00  INFO 2352 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
-2025-02-13T16:45:30.498+07:00  INFO 2352 --- [demo] [Thread-47] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-02-13T16:45:30.504+07:00  INFO 2352 --- [demo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-02-13T16:45:30.505+07:00  INFO 2352 --- [demo] [Thread-47] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-02-13T16:45:30.506+07:00  INFO 2352 --- [demo] [Thread-47] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown initiated...
-2025-02-13T16:45:30.507+07:00  INFO 2352 --- [demo] [Thread-47] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown completed.
-2025-02-13T16:45:30.566+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Starting DemoApplication using Java 23.0.2 with PID 2352 (D:\Java-learning\demo\target\classes started by dat.vothanh in D:\Java-learning\demo)
-2025-02-13T16:45:30.566+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : No active profile set, falling back to 1 default profile: "default"
-2025-02-13T16:45:30.690+07:00  INFO 2352 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-02-13T16:45:30.692+07:00  INFO 2352 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
-2025-02-13T16:45:30.769+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-02-13T16:45:30.770+07:00  INFO 2352 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-02-13T16:45:30.770+07:00  INFO 2352 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-02-13T16:45:30.789+07:00  INFO 2352 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-02-13T16:45:30.789+07:00  INFO 2352 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 222 ms
-2025-02-13T16:45:30.811+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Starting...
-2025-02-13T16:45:30.815+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-13 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d37b9a2
-2025-02-13T16:45:30.815+07:00  INFO 2352 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Start completed.
-2025-02-13T16:45:30.825+07:00  INFO 2352 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-02-13T16:45:30.899+07:00  INFO 2352 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-02-13T16:45:30.915+07:00  WARN 2352 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-13T16:45:30.928+07:00 DEBUG 2352 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
-2025-02-13T16:45:30.947+07:00 DEBUG 2352 --- [demo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2025-02-13T16:45:30.953+07:00 DEBUG 2352 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2025-02-13T16:45:30.958+07:00 DEBUG 2352 --- [demo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
-2025-02-13T16:45:30.990+07:00  INFO 2352 --- [demo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
-2025-02-13T16:45:31.009+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-02-13T16:45:31.022+07:00  INFO 2352 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-02-13T16:45:31.025+07:00  INFO 2352 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Started DemoApplication in 0.483 seconds (process running for 1479.518)
-2025-02-13T16:45:31.025+07:00  INFO 2352 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-14T15:38:30.322+07:00  INFO 22700 --- [demo] [main] c.p.demo.DemoApplicationTests            : Starting DemoApplicationTests using Java 21.0.6 with PID 22700 (started by dat.vothanh in D:\Java-learning\demo)
+2025-02-14T15:38:30.329+07:00  INFO 22700 --- [demo] [main] c.p.demo.DemoApplicationTests            : No active profile set, falling back to 1 default profile: "default"
+2025-02-14T15:38:30.361+07:00 DEBUG 22700 --- [demo] [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2d140a7
+2025-02-14T15:38:31.119+07:00  INFO 22700 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-14T15:38:31.187+07:00  INFO 22700 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interface.
+2025-02-14T15:38:31.841+07:00  INFO 22700 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-14T15:38:32.087+07:00  INFO 22700 --- [demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@28ee882c
+2025-02-14T15:38:32.089+07:00  INFO 22700 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-14T15:38:32.626+07:00  INFO 22700 --- [demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-14T15:38:33.597+07:00  INFO 22700 --- [demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-14T15:38:34.125+07:00  WARN 22700 --- [demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-14T15:38:34.221+07:00 DEBUG 22700 --- [demo] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2025-02-14T15:38:34.357+07:00 DEBUG 22700 --- [demo] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-02-14T15:38:34.398+07:00 DEBUG 22700 --- [demo] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-14T15:38:34.441+07:00 DEBUG 22700 --- [demo] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-14T15:38:34.586+07:00  INFO 22700 --- [demo] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-02-14T15:38:34.771+07:00  INFO 22700 --- [demo] [main] c.p.demo.DemoApplicationTests            : Started DemoApplicationTests in 4.77 seconds (process running for 5.952)
+2025-02-14T15:38:35.559+07:00 DEBUG 22700 --- [demo] [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@2d140a7, started on Fri Feb 14 15:38:30 ICT 2025
+2025-02-14T15:38:35.562+07:00  INFO 22700 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-14T15:38:35.564+07:00  INFO 22700 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-14T15:38:35.571+07:00  INFO 22700 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-14T16:30:51.349+07:00  INFO 14216 --- [demo] [main] c.p.demo.DemoApplicationTests            : Starting DemoApplicationTests using Java 21.0.6 with PID 14216 (started by dat.vothanh in D:\Java-learning\demo)
+2025-02-14T16:30:51.351+07:00  INFO 14216 --- [demo] [main] c.p.demo.DemoApplicationTests            : No active profile set, falling back to 1 default profile: "default"
+2025-02-14T16:30:51.383+07:00 DEBUG 14216 --- [demo] [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4201a617
+2025-02-14T16:30:52.201+07:00  INFO 14216 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-14T16:30:52.267+07:00  INFO 14216 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interface.
+2025-02-14T16:30:52.815+07:00  INFO 14216 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-14T16:30:53.043+07:00  INFO 14216 --- [demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68a305eb
+2025-02-14T16:30:53.045+07:00  INFO 14216 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-14T16:30:53.529+07:00  INFO 14216 --- [demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-14T16:30:54.540+07:00  INFO 14216 --- [demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-14T16:30:55.132+07:00  WARN 14216 --- [demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-14T16:30:55.252+07:00 DEBUG 14216 --- [demo] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2025-02-14T16:30:55.371+07:00 DEBUG 14216 --- [demo] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-02-14T16:30:55.409+07:00 DEBUG 14216 --- [demo] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-14T16:30:55.448+07:00 DEBUG 14216 --- [demo] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-14T16:30:55.721+07:00  INFO 14216 --- [demo] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7ccfed46, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@53630682, org.springframework.security.web.context.SecurityContextHolderFilter@736eb2a2, org.springframework.security.web.header.HeaderWriterFilter@66ad7167, org.springframework.web.filter.CorsFilter@71e2ddd, org.springframework.security.web.csrf.CsrfFilter@d082916, org.springframework.security.web.authentication.logout.LogoutFilter@3db3668, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@51d80f6e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@26fc464f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@8318808, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@12a8d03b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3b235623, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3ddc5a75, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@b97f195, org.springframework.security.web.access.ExceptionTranslationFilter@4884350b, org.springframework.security.web.access.intercept.AuthorizationFilter@5be8a92c]
+2025-02-14T16:30:55.797+07:00  INFO 14216 --- [demo] [main] c.p.demo.DemoApplicationTests            : Started DemoApplicationTests in 4.742 seconds (process running for 5.852)
+2025-02-14T16:30:56.711+07:00 DEBUG 14216 --- [demo] [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@4201a617, started on Fri Feb 14 16:30:51 ICT 2025
+2025-02-14T16:30:56.715+07:00  INFO 14216 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-14T16:30:56.717+07:00  INFO 14216 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-14T16:30:56.725+07:00  INFO 14216 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-14T16:35:30.360+07:00  INFO 21644 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Starting DemoApplication using Java 23.0.2 with PID 21644 (D:\Java-learning\demo\target\classes started by dat.vothanh in D:\Java-learning\demo)
+2025-02-14T16:35:30.363+07:00  INFO 21644 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : No active profile set, falling back to 1 default profile: "default"
+2025-02-14T16:35:30.423+07:00  INFO 21644 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-14T16:35:30.423+07:00  INFO 21644 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-14T16:35:31.035+07:00  INFO 21644 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-14T16:35:31.085+07:00  INFO 21644 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interface.
+2025-02-14T16:35:31.630+07:00  INFO 21644 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-14T16:35:31.640+07:00  INFO 21644 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-14T16:35:31.640+07:00  INFO 21644 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2025-02-14T16:35:31.686+07:00  INFO 21644 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-14T16:35:31.687+07:00  INFO 21644 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1264 ms
+2025-02-14T16:35:31.797+07:00  INFO 21644 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-14T16:35:31.952+07:00  INFO 21644 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70e261ba
+2025-02-14T16:35:31.954+07:00  INFO 21644 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-14T16:35:32.245+07:00  INFO 21644 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-14T16:35:33.196+07:00  INFO 21644 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-14T16:35:33.515+07:00  WARN 21644 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-14T16:35:33.578+07:00 DEBUG 21644 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2025-02-14T16:35:33.641+07:00 DEBUG 21644 --- [demo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-02-14T16:35:33.678+07:00 DEBUG 21644 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-14T16:35:33.730+07:00 DEBUG 21644 --- [demo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-14T16:35:34.028+07:00  INFO 21644 --- [demo] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@526ac468, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@427b361c, org.springframework.security.web.context.SecurityContextHolderFilter@66147a36, org.springframework.security.web.header.HeaderWriterFilter@589aa8c5, org.springframework.web.filter.CorsFilter@6e6c7298, org.springframework.security.web.csrf.CsrfFilter@55a423db, org.springframework.security.web.authentication.logout.LogoutFilter@5dd1d040, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@289e8c70, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3accc7b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7a4408ac, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3c02173c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5d392267, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@552f2113, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7e09ca08, org.springframework.security.web.access.ExceptionTranslationFilter@3b795228, org.springframework.security.web.access.intercept.AuthorizationFilter@57b6b492]
+2025-02-14T16:35:34.082+07:00  INFO 21644 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-14T16:35:34.142+07:00  INFO 21644 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-02-14T16:35:34.153+07:00  INFO 21644 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Started DemoApplication in 4.306 seconds (process running for 5.389)
+2025-02-14T16:36:47.018+07:00  INFO 21644 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-14T16:36:47.022+07:00  INFO 21644 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-14T16:36:47.030+07:00  INFO 21644 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-14T17:04:51.311+07:00  INFO 22036 --- [demo] [main] c.p.demo.DemoApplicationTests            : Starting DemoApplicationTests using Java 21.0.6 with PID 22036 (started by dat.vothanh in D:\Java-learning\demo)
+2025-02-14T17:04:51.312+07:00  INFO 22036 --- [demo] [main] c.p.demo.DemoApplicationTests            : No active profile set, falling back to 1 default profile: "default"
+2025-02-14T17:04:51.339+07:00 DEBUG 22036 --- [demo] [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4201a617
+2025-02-14T17:04:52.067+07:00  INFO 22036 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-14T17:04:52.129+07:00  INFO 22036 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interface.
+2025-02-14T17:04:52.698+07:00  INFO 22036 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-14T17:04:52.946+07:00  INFO 22036 --- [demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55e1192
+2025-02-14T17:04:52.948+07:00  INFO 22036 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-14T17:04:53.493+07:00  INFO 22036 --- [demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-14T17:04:54.442+07:00  INFO 22036 --- [demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-14T17:04:55.131+07:00  WARN 22036 --- [demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-14T17:04:55.274+07:00 DEBUG 22036 --- [demo] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2025-02-14T17:04:55.447+07:00 DEBUG 22036 --- [demo] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-02-14T17:04:55.503+07:00 DEBUG 22036 --- [demo] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-14T17:04:55.564+07:00 DEBUG 22036 --- [demo] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-14T17:04:55.882+07:00  INFO 22036 --- [demo] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@67cd1db3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7ccfed46, org.springframework.security.web.context.SecurityContextHolderFilter@7def62d0, org.springframework.security.web.header.HeaderWriterFilter@53cba89f, org.springframework.web.filter.CorsFilter@53630682, org.springframework.security.web.csrf.CsrfFilter@259ae1a9, org.springframework.security.web.authentication.logout.LogoutFilter@6e669b5c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5be8a92c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@15c8b75c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@71e2ddd, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7a3ab73a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7ec5d3e1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3b235623, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@8318808, org.springframework.security.web.access.ExceptionTranslationFilter@153cf928, org.springframework.security.web.access.intercept.AuthorizationFilter@4ffcb1bd]
+2025-02-14T17:04:55.949+07:00  INFO 22036 --- [demo] [main] c.p.demo.DemoApplicationTests            : Started DemoApplicationTests in 4.933 seconds (process running for 6.128)
+2025-02-14T17:04:56.803+07:00 DEBUG 22036 --- [demo] [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@4201a617, started on Fri Feb 14 17:04:51 ICT 2025
+2025-02-14T17:04:56.808+07:00  INFO 22036 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-14T17:04:56.810+07:00  INFO 22036 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-14T17:04:56.819+07:00  INFO 22036 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-14T19:28:27.083+07:00  INFO 26016 --- [demo] [main] c.p.demo.DemoApplicationTests            : Starting DemoApplicationTests using Java 21.0.6 with PID 26016 (started by dat.vothanh in D:\Java-learning\demo)
+2025-02-14T19:28:27.084+07:00  INFO 26016 --- [demo] [main] c.p.demo.DemoApplicationTests            : No active profile set, falling back to 1 default profile: "default"
+2025-02-14T19:28:27.118+07:00 DEBUG 26016 --- [demo] [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4201a617
+2025-02-14T19:28:27.868+07:00  INFO 26016 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-14T19:28:27.931+07:00  INFO 26016 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interface.
+2025-02-14T19:28:28.465+07:00  INFO 26016 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-14T19:28:28.757+07:00  INFO 26016 --- [demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55e1192
+2025-02-14T19:28:28.760+07:00  INFO 26016 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-14T19:28:29.244+07:00  INFO 26016 --- [demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-14T19:28:30.178+07:00  INFO 26016 --- [demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-14T19:28:30.756+07:00  WARN 26016 --- [demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-14T19:28:30.870+07:00 DEBUG 26016 --- [demo] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2025-02-14T19:28:31.025+07:00 DEBUG 26016 --- [demo] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-02-14T19:28:31.081+07:00 DEBUG 26016 --- [demo] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-14T19:28:31.133+07:00 DEBUG 26016 --- [demo] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-14T19:28:31.429+07:00  INFO 26016 --- [demo] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@67cd1db3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7ccfed46, org.springframework.security.web.context.SecurityContextHolderFilter@7def62d0, org.springframework.security.web.header.HeaderWriterFilter@53cba89f, org.springframework.web.filter.CorsFilter@53630682, org.springframework.security.web.csrf.CsrfFilter@259ae1a9, org.springframework.security.web.authentication.logout.LogoutFilter@6e669b5c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5be8a92c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@15c8b75c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@71e2ddd, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7a3ab73a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7ec5d3e1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3b235623, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@8318808, org.springframework.security.web.access.ExceptionTranslationFilter@153cf928, org.springframework.security.web.access.intercept.AuthorizationFilter@4ffcb1bd]
+2025-02-14T19:28:31.483+07:00  INFO 26016 --- [demo] [main] c.p.demo.DemoApplicationTests            : Started DemoApplicationTests in 4.698 seconds (process running for 5.928)
+2025-02-14T19:28:32.174+07:00 DEBUG 26016 --- [demo] [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@4201a617, started on Fri Feb 14 19:28:27 ICT 2025
+2025-02-14T19:28:32.178+07:00  INFO 26016 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-14T19:28:32.181+07:00  INFO 26016 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-14T19:28:32.190+07:00  INFO 26016 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-14T19:28:58.996+07:00  INFO 17628 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Starting DemoApplication using Java 23.0.2 with PID 17628 (D:\Java-learning\demo\target\classes started by dat.vothanh in D:\Java-learning\demo)
+2025-02-14T19:28:58.998+07:00  INFO 17628 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : No active profile set, falling back to 1 default profile: "default"
+2025-02-14T19:28:59.061+07:00  INFO 17628 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-14T19:28:59.061+07:00  INFO 17628 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-14T19:28:59.865+07:00  INFO 17628 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-14T19:28:59.930+07:00  INFO 17628 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interface.
+2025-02-14T19:29:00.550+07:00  INFO 17628 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-14T19:29:00.561+07:00  INFO 17628 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-14T19:29:00.561+07:00  INFO 17628 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2025-02-14T19:29:00.612+07:00  INFO 17628 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-14T19:29:00.612+07:00  INFO 17628 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1551 ms
+2025-02-14T19:29:00.740+07:00  INFO 17628 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-14T19:29:00.894+07:00  INFO 17628 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@507f0f34
+2025-02-14T19:29:00.896+07:00  INFO 17628 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-14T19:29:01.225+07:00  INFO 17628 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-14T19:29:02.026+07:00  INFO 17628 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-14T19:29:02.356+07:00  WARN 17628 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-14T19:29:02.430+07:00 DEBUG 17628 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2025-02-14T19:29:02.503+07:00 DEBUG 17628 --- [demo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-02-14T19:29:02.529+07:00 DEBUG 17628 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-14T19:29:02.555+07:00 DEBUG 17628 --- [demo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-14T19:29:02.755+07:00  INFO 17628 --- [demo] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@34be24bc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@18565836, org.springframework.security.web.context.SecurityContextHolderFilter@43997fa0, org.springframework.security.web.header.HeaderWriterFilter@273c34e, org.springframework.web.filter.CorsFilter@1fd56706, org.springframework.security.web.csrf.CsrfFilter@3a788605, org.springframework.security.web.authentication.logout.LogoutFilter@721cdb50, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@27042d59, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1c62a988, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6be3552d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@26442802, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3eb55bf3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@52471aea, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2e3d1729, org.springframework.security.web.access.ExceptionTranslationFilter@cf9ae36, org.springframework.security.web.access.intercept.AuthorizationFilter@51da91a0]
+2025-02-14T19:29:02.792+07:00  INFO 17628 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-14T19:29:02.835+07:00  INFO 17628 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-02-14T19:29:02.841+07:00  INFO 17628 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Started DemoApplication in 4.356 seconds (process running for 5.623)
+2025-02-14T19:29:46.589+07:00  INFO 17628 --- [demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-14T19:29:46.589+07:00  INFO 17628 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-14T19:29:46.590+07:00 DEBUG 17628 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-02-14T19:29:46.590+07:00 DEBUG 17628 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-02-14T19:29:46.590+07:00 DEBUG 17628 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-02-14T19:29:46.591+07:00 DEBUG 17628 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4b3f88
+2025-02-14T19:29:46.592+07:00 DEBUG 17628 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@18b0e899
+2025-02-14T19:29:46.592+07:00 DEBUG 17628 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-02-14T19:29:46.592+07:00  INFO 17628 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-02-14T19:29:46.770+07:00 DEBUG 17628 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/user/get-by-email", parameters={}
+2025-02-14T19:29:46.771+07:00 DEBUG 17628 --- [demo] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.project_management.demo.controller.UserController#getUserByEmail(String)
+2025-02-14T19:29:46.784+07:00 DEBUG 17628 --- [demo] [http-nio-8080-exec-1] o.s.web.method.HandlerMethod             : Could not resolve parameter [0] in public com.project_management.demo.dto.ResponseDTO<com.project_management.demo.dto.UserDTO> com.project_management.demo.controller.UserController.getUserByEmail(java.lang.String): Required request parameter 'email' for method parameter type String is not present
+2025-02-14T19:29:46.789+07:00  WARN 17628 --- [demo] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'email' for method parameter type String is not present]
+2025-02-14T19:29:46.790+07:00 DEBUG 17628 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2025-02-14T19:29:46.797+07:00 DEBUG 17628 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-02-14T19:29:46.798+07:00 DEBUG 17628 --- [demo] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-02-14T19:29:46.823+07:00 DEBUG 17628 --- [demo] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-02-14T19:29:46.824+07:00 DEBUG 17628 --- [demo] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Feb 14 19:29:46 GMT+07:00 2025, status=400, error=Bad Request, trace=org.springframew (truncated)...]
+2025-02-14T19:29:46.856+07:00 DEBUG 17628 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 400
+2025-02-14T19:30:12.902+07:00 DEBUG 17628 --- [demo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/user/get-by-email", parameters={}
+2025-02-14T19:30:12.902+07:00 DEBUG 17628 --- [demo] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.project_management.demo.controller.UserController#getUserByEmail(String)
+2025-02-14T19:30:12.903+07:00 DEBUG 17628 --- [demo] [http-nio-8080-exec-4] o.s.web.method.HandlerMethod             : Could not resolve parameter [0] in public com.project_management.demo.dto.ResponseDTO<com.project_management.demo.dto.UserDTO> com.project_management.demo.controller.UserController.getUserByEmail(java.lang.String): Required request parameter 'email' for method parameter type String is not present
+2025-02-14T19:30:12.903+07:00  WARN 17628 --- [demo] [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'email' for method parameter type String is not present]
+2025-02-14T19:30:12.904+07:00 DEBUG 17628 --- [demo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2025-02-14T19:30:12.904+07:00 DEBUG 17628 --- [demo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-02-14T19:30:12.905+07:00 DEBUG 17628 --- [demo] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-02-14T19:30:12.905+07:00 DEBUG 17628 --- [demo] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-02-14T19:30:12.906+07:00 DEBUG 17628 --- [demo] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Feb 14 19:30:12 GMT+07:00 2025, status=400, error=Bad Request, trace=org.springframew (truncated)...]
+2025-02-14T19:30:12.907+07:00 DEBUG 17628 --- [demo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 400
+2025-02-14T19:30:29.066+07:00  INFO 17628 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-14T19:30:29.071+07:00  INFO 17628 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-14T19:30:29.080+07:00  INFO 17628 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-14T19:30:35.254+07:00  INFO 24924 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Starting DemoApplication using Java 23.0.2 with PID 24924 (D:\Java-learning\demo\target\classes started by dat.vothanh in D:\Java-learning\demo)
+2025-02-14T19:30:35.256+07:00  INFO 24924 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : No active profile set, falling back to 1 default profile: "default"
+2025-02-14T19:30:35.319+07:00  INFO 24924 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-14T19:30:35.320+07:00  INFO 24924 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-14T19:30:36.001+07:00  INFO 24924 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-14T19:30:36.052+07:00  INFO 24924 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interface.
+2025-02-14T19:30:36.545+07:00  INFO 24924 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-14T19:30:36.554+07:00  INFO 24924 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-14T19:30:36.554+07:00  INFO 24924 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2025-02-14T19:30:36.598+07:00  INFO 24924 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-14T19:30:36.599+07:00  INFO 24924 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1279 ms
+2025-02-14T19:30:36.700+07:00  INFO 24924 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-14T19:30:36.846+07:00  INFO 24924 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e7dc658
+2025-02-14T19:30:36.848+07:00  INFO 24924 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-14T19:30:37.210+07:00  INFO 24924 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-14T19:30:38.071+07:00  INFO 24924 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-14T19:30:38.366+07:00  WARN 24924 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-14T19:30:38.434+07:00 DEBUG 24924 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2025-02-14T19:30:38.497+07:00 DEBUG 24924 --- [demo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-02-14T19:30:38.521+07:00 DEBUG 24924 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-14T19:30:38.548+07:00 DEBUG 24924 --- [demo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-14T19:30:38.732+07:00  INFO 24924 --- [demo] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6a55fcec, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@56cadd41, org.springframework.security.web.context.SecurityContextHolderFilter@6e07aee9, org.springframework.security.web.header.HeaderWriterFilter@43fc77fb, org.springframework.web.filter.CorsFilter@74dfec80, org.springframework.security.web.csrf.CsrfFilter@5c030498, org.springframework.security.web.authentication.logout.LogoutFilter@e52febd, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@30dba34b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3e0a6f35, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6af14bff, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3f53bc84, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@39b3bc46, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6a999a0d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2f8678d1, org.springframework.security.web.access.ExceptionTranslationFilter@5c76dab4, org.springframework.security.web.access.intercept.AuthorizationFilter@4d213eba]
+2025-02-14T19:30:38.771+07:00  INFO 24924 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-14T19:30:38.813+07:00  INFO 24924 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-02-14T19:30:38.820+07:00  INFO 24924 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Started DemoApplication in 4.063 seconds (process running for 5.033)
+2025-02-14T19:30:51.732+07:00  INFO 24924 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-14T19:30:51.736+07:00  INFO 24924 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-14T19:30:51.748+07:00  INFO 24924 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-14T19:30:56.605+07:00  INFO 24916 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Starting DemoApplication using Java 23.0.2 with PID 24916 (D:\Java-learning\demo\target\classes started by dat.vothanh in D:\Java-learning\demo)
+2025-02-14T19:30:56.607+07:00  INFO 24916 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : No active profile set, falling back to 1 default profile: "default"
+2025-02-14T19:30:56.670+07:00  INFO 24916 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-14T19:30:56.671+07:00  INFO 24916 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-14T19:30:57.365+07:00  INFO 24916 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-14T19:30:57.412+07:00  INFO 24916 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interface.
+2025-02-14T19:30:57.900+07:00  INFO 24916 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-14T19:30:57.910+07:00  INFO 24916 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-14T19:30:57.910+07:00  INFO 24916 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2025-02-14T19:30:57.962+07:00  INFO 24916 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-14T19:30:57.962+07:00  INFO 24916 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1291 ms
+2025-02-14T19:30:58.086+07:00  INFO 24916 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-14T19:30:58.254+07:00  INFO 24916 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f88c22d
+2025-02-14T19:30:58.256+07:00  INFO 24916 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-14T19:30:58.582+07:00  INFO 24916 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-14T19:30:59.406+07:00  INFO 24916 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-14T19:30:59.697+07:00  WARN 24916 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-14T19:30:59.762+07:00 DEBUG 24916 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2025-02-14T19:30:59.826+07:00 DEBUG 24916 --- [demo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-02-14T19:30:59.851+07:00 DEBUG 24916 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-14T19:30:59.876+07:00 DEBUG 24916 --- [demo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-14T19:31:00.061+07:00  INFO 24916 --- [demo] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5fb8f322, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6eeec410, org.springframework.security.web.context.SecurityContextHolderFilter@5787c167, org.springframework.security.web.header.HeaderWriterFilter@3ad3c8e5, org.springframework.web.filter.CorsFilter@8c23e02, org.springframework.security.web.csrf.CsrfFilter@5f6cad2e, org.springframework.security.web.authentication.logout.LogoutFilter@70d9f0ed, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2a577468, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1c3b8770, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@79cf2111, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6ba1bd62, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@65dddd11, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@721cdb50, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6176fce9, org.springframework.security.web.access.ExceptionTranslationFilter@3adbb602, org.springframework.security.web.access.intercept.AuthorizationFilter@7e5648ae]
+2025-02-14T19:31:00.101+07:00  INFO 24916 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-14T19:31:00.147+07:00  INFO 24916 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-02-14T19:31:00.154+07:00  INFO 24916 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Started DemoApplication in 3.993 seconds (process running for 4.942)
+2025-02-14T19:31:17.673+07:00  INFO 24916 --- [demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-14T19:31:17.674+07:00  INFO 24916 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-14T19:31:17.674+07:00 DEBUG 24916 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-02-14T19:31:17.675+07:00 DEBUG 24916 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-02-14T19:31:17.675+07:00 DEBUG 24916 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-02-14T19:31:17.678+07:00 DEBUG 24916 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1faf433f
+2025-02-14T19:31:17.679+07:00 DEBUG 24916 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@e39279d
+2025-02-14T19:31:17.680+07:00 DEBUG 24916 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-02-14T19:31:17.681+07:00  INFO 24916 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2025-02-14T19:31:17.931+07:00 DEBUG 24916 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/user/get-by-email", parameters={}
+2025-02-14T19:31:17.933+07:00 DEBUG 24916 --- [demo] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.project_management.demo.controller.UserController#getUserByEmail(String)
+2025-02-14T19:31:17.963+07:00 DEBUG 24916 --- [demo] [http-nio-8080-exec-1] o.s.web.method.HandlerMethod             : Could not resolve parameter [0] in public com.project_management.demo.dto.ResponseDTO<com.project_management.demo.dto.UserDTO> com.project_management.demo.controller.UserController.getUserByEmail(java.lang.String): Required request parameter 'email' for method parameter type String is not present
+2025-02-14T19:31:17.970+07:00  WARN 24916 --- [demo] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'email' for method parameter type String is not present]
+2025-02-14T19:31:17.971+07:00 DEBUG 24916 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2025-02-14T19:31:17.983+07:00 DEBUG 24916 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-02-14T19:31:17.984+07:00 DEBUG 24916 --- [demo] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-02-14T19:31:18.016+07:00 DEBUG 24916 --- [demo] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-02-14T19:31:18.020+07:00 DEBUG 24916 --- [demo] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Feb 14 19:31:17 GMT+07:00 2025, status=400, error=Bad Request, trace=org.springframew (truncated)...]
+2025-02-14T19:31:18.080+07:00 DEBUG 24916 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 400
+2025-02-14T19:31:44.950+07:00 DEBUG 24916 --- [demo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/user/get-by-email", parameters={}
+2025-02-14T19:31:44.951+07:00 DEBUG 24916 --- [demo] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.project_management.demo.controller.UserController#getUserByEmail(String)
+2025-02-14T19:31:44.951+07:00 DEBUG 24916 --- [demo] [http-nio-8080-exec-4] o.s.web.method.HandlerMethod             : Could not resolve parameter [0] in public com.project_management.demo.dto.ResponseDTO<com.project_management.demo.dto.UserDTO> com.project_management.demo.controller.UserController.getUserByEmail(java.lang.String): Required request parameter 'email' for method parameter type String is not present
+2025-02-14T19:31:44.952+07:00  WARN 24916 --- [demo] [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'email' for method parameter type String is not present]
+2025-02-14T19:31:44.952+07:00 DEBUG 24916 --- [demo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2025-02-14T19:31:44.953+07:00 DEBUG 24916 --- [demo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-02-14T19:31:44.953+07:00 DEBUG 24916 --- [demo] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-02-14T19:31:44.954+07:00 DEBUG 24916 --- [demo] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-02-14T19:31:44.955+07:00 DEBUG 24916 --- [demo] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Feb 14 19:31:44 GMT+07:00 2025, status=400, error=Bad Request, trace=org.springframew (truncated)...]
+2025-02-14T19:31:44.956+07:00 DEBUG 24916 --- [demo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 400
+2025-02-14T19:32:13.210+07:00  INFO 24916 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-14T19:32:13.214+07:00  INFO 24916 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-14T19:32:13.221+07:00  INFO 24916 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-14T19:32:19.904+07:00  INFO 1748 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Starting DemoApplication using Java 23.0.2 with PID 1748 (D:\Java-learning\demo\target\classes started by dat.vothanh in D:\Java-learning\demo)
+2025-02-14T19:32:19.907+07:00  INFO 1748 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : No active profile set, falling back to 1 default profile: "default"
+2025-02-14T19:32:19.982+07:00  INFO 1748 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-14T19:32:19.983+07:00  INFO 1748 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-14T19:32:20.846+07:00  INFO 1748 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-14T19:32:20.913+07:00  INFO 1748 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interface.
+2025-02-14T19:32:21.463+07:00  INFO 1748 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-14T19:32:21.474+07:00  INFO 1748 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-14T19:32:21.474+07:00  INFO 1748 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2025-02-14T19:32:21.526+07:00  INFO 1748 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-14T19:32:21.527+07:00  INFO 1748 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1543 ms
+2025-02-14T19:32:21.663+07:00  INFO 1748 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-14T19:32:21.796+07:00  INFO 1748 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b88cae9
+2025-02-14T19:32:21.798+07:00  INFO 1748 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-14T19:32:22.126+07:00  INFO 1748 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-14T19:32:22.987+07:00  INFO 1748 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-14T19:32:23.279+07:00  WARN 1748 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-14T19:32:23.350+07:00 DEBUG 1748 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2025-02-14T19:32:23.409+07:00 DEBUG 1748 --- [demo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-02-14T19:32:23.444+07:00 DEBUG 1748 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-14T19:32:23.475+07:00 DEBUG 1748 --- [demo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-14T19:32:23.680+07:00  INFO 1748 --- [demo] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@28f4ef10, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@315f6ed2, org.springframework.security.web.context.SecurityContextHolderFilter@6c41c643, org.springframework.security.web.header.HeaderWriterFilter@13562994, org.springframework.web.filter.CorsFilter@5ea7453e, org.springframework.security.web.csrf.CsrfFilter@169daeb, org.springframework.security.web.authentication.logout.LogoutFilter@71c9d81a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@51ad0203, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2719ae72, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4216b62c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6d0042ed, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@321c7094, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7f9753fc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4d955d11, org.springframework.security.web.access.ExceptionTranslationFilter@3d71b02e, org.springframework.security.web.access.intercept.AuthorizationFilter@64e1f642]
+2025-02-14T19:32:23.725+07:00  INFO 1748 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-14T19:32:23.772+07:00  INFO 1748 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-02-14T19:32:23.779+07:00  INFO 1748 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Started DemoApplication in 4.429 seconds (process running for 5.598)
+2025-02-14T19:32:34.322+07:00  INFO 1748 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-02-14T19:32:34.332+07:00  INFO 1748 --- [demo] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-14T19:32:34.336+07:00  INFO 1748 --- [demo] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-14T19:32:34.345+07:00  INFO 1748 --- [demo] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-14T19:32:34.420+07:00  INFO 1748 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Starting DemoApplication using Java 23.0.2 with PID 1748 (D:\Java-learning\demo\target\classes started by dat.vothanh in D:\Java-learning\demo)
+2025-02-14T19:32:34.420+07:00  INFO 1748 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : No active profile set, falling back to 1 default profile: "default"
+2025-02-14T19:32:34.670+07:00  INFO 1748 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-14T19:32:34.683+07:00  INFO 1748 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interface.
+2025-02-14T19:32:34.809+07:00  INFO 1748 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-14T19:32:34.810+07:00  INFO 1748 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-14T19:32:34.810+07:00  INFO 1748 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2025-02-14T19:32:34.835+07:00  INFO 1748 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-14T19:32:34.835+07:00  INFO 1748 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 413 ms
+2025-02-14T19:32:34.879+07:00  INFO 1748 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-02-14T19:32:34.884+07:00  INFO 1748 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@17f511ed
+2025-02-14T19:32:34.885+07:00  INFO 1748 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-02-14T19:32:34.895+07:00  INFO 1748 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-14T19:32:34.998+07:00  INFO 1748 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-14T19:32:35.100+07:00  WARN 1748 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-14T19:32:35.125+07:00 DEBUG 1748 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2025-02-14T19:32:35.159+07:00 DEBUG 1748 --- [demo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-02-14T19:32:35.167+07:00 DEBUG 1748 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-14T19:32:35.171+07:00 DEBUG 1748 --- [demo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-14T19:32:35.219+07:00  INFO 1748 --- [demo] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1b77f510, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1ce52267, org.springframework.security.web.context.SecurityContextHolderFilter@17dd645d, org.springframework.security.web.header.HeaderWriterFilter@587365fa, org.springframework.web.filter.CorsFilter@7814ab55, org.springframework.security.web.csrf.CsrfFilter@210a6f3a, org.springframework.security.web.authentication.logout.LogoutFilter@478e3a9e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@202897b1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3b80e95e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4e797cb4, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@16c403e0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@655caa23, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@781f1f12, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6a02cf1e, org.springframework.security.web.access.ExceptionTranslationFilter@31a59f6d, org.springframework.security.web.access.intercept.AuthorizationFilter@7b9f8158]
+2025-02-14T19:32:35.231+07:00  INFO 1748 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-14T19:32:35.252+07:00  INFO 1748 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-02-14T19:32:35.255+07:00  INFO 1748 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Started DemoApplication in 0.867 seconds (process running for 17.075)
+2025-02-14T19:32:35.258+07:00  INFO 1748 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-14T19:32:36.644+07:00  INFO 1748 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-02-14T19:32:36.651+07:00  INFO 1748 --- [demo] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-14T19:32:36.652+07:00  INFO 1748 --- [demo] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-02-14T19:32:36.654+07:00  INFO 1748 --- [demo] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-02-14T19:32:36.741+07:00  INFO 1748 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Starting DemoApplication using Java 23.0.2 with PID 1748 (D:\Java-learning\demo\target\classes started by dat.vothanh in D:\Java-learning\demo)
+2025-02-14T19:32:36.741+07:00  INFO 1748 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : No active profile set, falling back to 1 default profile: "default"
+2025-02-14T19:32:37.158+07:00  INFO 1748 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-14T19:32:37.173+07:00  INFO 1748 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interface.
+2025-02-14T19:32:37.364+07:00  INFO 1748 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-14T19:32:37.365+07:00  INFO 1748 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-14T19:32:37.366+07:00  INFO 1748 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2025-02-14T19:32:37.416+07:00  INFO 1748 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-14T19:32:37.416+07:00  INFO 1748 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 671 ms
+2025-02-14T19:32:37.475+07:00  INFO 1748 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-02-14T19:32:37.481+07:00  INFO 1748 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3265a9a7
+2025-02-14T19:32:37.481+07:00  INFO 1748 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-02-14T19:32:37.488+07:00  INFO 1748 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-14T19:32:37.584+07:00  INFO 1748 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-14T19:32:37.705+07:00  WARN 1748 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-14T19:32:37.746+07:00 DEBUG 1748 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2025-02-14T19:32:37.782+07:00 DEBUG 1748 --- [demo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-02-14T19:32:37.798+07:00 DEBUG 1748 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-14T19:32:37.803+07:00 DEBUG 1748 --- [demo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-14T19:32:37.883+07:00  INFO 1748 --- [demo] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@305372e3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@493cddbf, org.springframework.security.web.context.SecurityContextHolderFilter@5520ea97, org.springframework.security.web.header.HeaderWriterFilter@1f1c2420, org.springframework.web.filter.CorsFilter@4e31a40e, org.springframework.security.web.csrf.CsrfFilter@6e9c504f, org.springframework.security.web.authentication.logout.LogoutFilter@5473a373, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4fd90a7c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@499af9d0, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@a8bfb2f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6f850cf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5932c654, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3759f63f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@216444f7, org.springframework.security.web.access.ExceptionTranslationFilter@5fb63663, org.springframework.security.web.access.intercept.AuthorizationFilter@322967f9]
+2025-02-14T19:32:37.907+07:00  INFO 1748 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-14T19:32:37.964+07:00  INFO 1748 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-02-14T19:32:37.968+07:00  INFO 1748 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Started DemoApplication in 1.267 seconds (process running for 19.788)
+2025-02-14T19:32:37.973+07:00  INFO 1748 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-02-14T19:49:36.139+07:00  INFO 1748 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-14T19:49:36.139+07:00  INFO 1748 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-02-14T19:49:36.141+07:00  INFO 1748 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2025-02-14T19:49:39.579+07:00  INFO 23084 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Starting DemoApplication using Java 23.0.2 with PID 23084 (D:\Java-learning\demo\target\classes started by dat.vothanh in D:\Java-learning\demo)
+2025-02-14T19:49:39.581+07:00  INFO 23084 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : No active profile set, falling back to 1 default profile: "default"
+2025-02-14T19:49:39.651+07:00  INFO 23084 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-02-14T19:49:39.651+07:00  INFO 23084 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-02-14T19:49:40.473+07:00  INFO 23084 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-14T19:49:40.530+07:00  INFO 23084 --- [demo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interface.
+2025-02-14T19:49:41.065+07:00  INFO 23084 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-02-14T19:49:41.075+07:00  INFO 23084 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-14T19:49:41.075+07:00  INFO 23084 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2025-02-14T19:49:41.123+07:00  INFO 23084 --- [demo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-14T19:49:41.124+07:00  INFO 23084 --- [demo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1473 ms
+2025-02-14T19:49:41.240+07:00  INFO 23084 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-14T19:49:41.374+07:00  INFO 23084 --- [demo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e7dc658
+2025-02-14T19:49:41.376+07:00  INFO 23084 --- [demo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-14T19:49:41.726+07:00  INFO 23084 --- [demo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-14T19:49:42.697+07:00  INFO 23084 --- [demo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-14T19:49:43.005+07:00  WARN 23084 --- [demo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-14T19:49:43.069+07:00 DEBUG 23084 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2025-02-14T19:49:43.132+07:00 DEBUG 23084 --- [demo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-02-14T19:49:43.159+07:00 DEBUG 23084 --- [demo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-14T19:49:43.184+07:00 DEBUG 23084 --- [demo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-14T19:49:43.386+07:00  INFO 23084 --- [demo] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6a55fcec, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@56cadd41, org.springframework.security.web.context.SecurityContextHolderFilter@6e07aee9, org.springframework.security.web.header.HeaderWriterFilter@43fc77fb, org.springframework.web.filter.CorsFilter@74dfec80, org.springframework.security.web.csrf.CsrfFilter@5c030498, org.springframework.security.web.authentication.logout.LogoutFilter@e52febd, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@30dba34b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3e0a6f35, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6af14bff, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3f53bc84, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@39b3bc46, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6a999a0d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2f8678d1, org.springframework.security.web.access.ExceptionTranslationFilter@5c76dab4, org.springframework.security.web.access.intercept.AuthorizationFilter@4d213eba]
+2025-02-14T19:49:43.434+07:00  INFO 23084 --- [demo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-02-14T19:49:43.491+07:00  INFO 23084 --- [demo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2025-02-14T19:49:43.497+07:00  INFO 23084 --- [demo] [restartedMain] c.p.demo.DemoApplication                 : Started DemoApplication in 4.351 seconds (process running for 5.304)
